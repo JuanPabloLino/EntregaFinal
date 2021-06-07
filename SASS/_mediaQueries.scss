@@ -42,7 +42,7 @@
         padding-top: $spacing-lg*2;        
     }
     .main .jumbotron__button{        
-        font-size: $f-large*2;    
+        font-size: $f-large*4;    
         width: auto;   
     }
 
@@ -62,7 +62,7 @@
         padding-left: $spacing-lg*2.5;   
         padding-top: $spacing-lg*2.5;  
         padding-bottom: $spacing-lg*2;   
-        font-size: 5em;      
+        font-size: $spacing-lg*2;      
         
             .info__nombre h3{
                 font-size: $f-large*2.7;
@@ -79,12 +79,19 @@
         flex-direction: row;
     }       
     .navbar__logo{
-        display: flex;
-        height: 25%;
-        width: 25%;
+        display: flex;         
+        width: $spacing-lg;    
         border-radius: 100%;
+        margin-bottom: $spacing-lg*5;
+            img{
+                width: 60%;
+            }
 
     }   
+    
+    .main p {
+        font-size: 5em;
+    }
         
 }
 }
@@ -133,13 +140,15 @@
         padding-top: $spacing-lg*2;        
     }
     .main .jumbotron__button{        
-        font-size: $f-large*2;    
+        font-size: $f-large*3;  
         width: auto;   
     }
 
     .main .informacion__jumbotron{
-        h1{font-size: $f-title;}
-        p{font-size: $f-large*2.5;}
+        h1{
+        font-size: $f-title*2;}
+        p{
+            font-size: $f-large*3.5;}
     }
 
     .main .container__footer{
@@ -153,7 +162,7 @@
         padding-left: $spacing-lg*2.5;   
         padding-top: $spacing-lg*2.5;  
         padding-bottom: $spacing-lg*2;   
-        font-size: 5em;      
+        font-size: $spacing-lg*3;      
         
             .info__nombre h3{
                 font-size: $f-large*2.7;
@@ -170,11 +179,15 @@
         flex-direction: row;
     }      
     .navbar__logo{
-        display: flex;
-        height: 22%;
-        width: 22%;
+        display: flex;         
+        width: 40%;   
+        height: 40%;    
         border-radius: 100%;
-
+        margin-bottom: $spacing-lg*5;
+        img{
+            width: 40%;
+            height: 40%;
+        }
     }  
 
 }
@@ -211,13 +224,13 @@
 
     }
     .main .jumbotron__button{        
-        font-size: $f-large*2;
+        font-size: $f-large*3;
         width: auto;
                
     }
     
     .main .informacion__jumbotron{
-        h1{font-size: $f-title;}
+        h1{font-size: $f-title*1.5;}
         p{font-size: $f-large*2.6;}
     }
 
@@ -232,7 +245,7 @@
         padding-left: $spacing-lg*2.5;   
         padding-top: $spacing-lg*2.5;  
         padding-bottom: $spacing-lg*2;   
-        font-size: 5em;      
+        font-size: $spacing-lg*2;       
         
             .info__nombre h3{
                 font-size: $f-large*2.7;
@@ -250,9 +263,9 @@
     } 
     .navbar__logo{
         display: flex;
-        height: 14%;
-        width: 14%;
+        width: 60%;        
         border-radius: 100%;
+        margin-bottom: $spacing-lg*4;
 
     }  
 }
@@ -291,7 +304,7 @@
      
     .main img {
         height: 100%;
-        width: 100%;
+        
     }
     .main .jumbotron__button{        
         font-size: $f-large*2;
@@ -301,7 +314,7 @@
     
     .main .informacion__jumbotron{
         h1{font-size: $f-title;}
-        p{font-size: $f-large*1;}
+        p{font-size: $f-large*2;}
     }
     .main .container__footer{
         height: auto;
@@ -314,7 +327,7 @@
         padding-left: $spacing-lg*2.5;   
         padding-top: $spacing-lg*2.5;  
         padding-bottom: $spacing-lg*2;   
-        font-size: 5em;      
+        font-size: $spacing-lg*1.5;       
         
             .info__nombre h3{
                 font-size: $f-large*2.7;
@@ -333,9 +346,9 @@
 
     .navbar__logo{
         display: flex;
-        height: 12%;
-        width: 12%;
+        width: 60%;
         border-radius: 100%;
+        margin-bottom: $spacing-lg*5;
 
     }  
 }
@@ -377,7 +390,7 @@
      
     .main img {
         height: 100%;
-        width: 100%;
+        
     }
     .main .jumbotron__button{        
         font-size: $f-large;
@@ -419,7 +432,6 @@
     .navbar__logo{
         display: flex;
         height: 10%;
-        width: 10%;
         border-radius: 100%;
 
     }  

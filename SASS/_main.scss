@@ -1,11 +1,6 @@
 
 
-.main {        
-    font-size: $f-medium;
-    font-family: $f-family3;
-    width: $full-width;   
-
-    .main__tituloPagina{
+.main__tituloPagina{
         width: $full-width;  
         height: $container-height;      
         margin-bottom: 2*$spacing-lg;
@@ -30,7 +25,7 @@
 
     .row{
         margin: 0;
-        padding-bottom: $spacing-lg*4;
+        padding-bottom: $spacing-lg*3;
     }
 
     
@@ -42,8 +37,7 @@
 
     }
 
-    .row{
-    padding-top: 5em;    
+    .row{       
     display: flex;    
     align-content: stretch;
     justify-content: space-evenly;
@@ -87,6 +81,9 @@
         flex-direction: column;        
         color: $black;
         padding-bottom: $spacing;
+            a{
+                color: $white;
+            }
         
 
     }
@@ -113,6 +110,7 @@
     img{
             height: 100%;
             width: 100%;
+            
     }
 
     .main__section4{        
@@ -139,7 +137,14 @@
                 display: flex;
 
             }
-         
+            a{
+                width: 5em;
+            }
+
+    .footer__logo{
+        width: 60%;
+        border-radius: 100%;
+    }     
 
     }
         .footer__info{
@@ -153,27 +158,29 @@
         display: flex;
         flex-direction: column;
         width: $spacing-lg*5;
+        
         li{
             width: $spacing-lg*3;
             font-size: $f-medium;
-            height: $spacing;
-           
+            height: $spacing-sm;
+            color: $white;
         }
-    }
-    
+
+    }   
 
     .footer__redesSociales{
         display: flex;
         flex-direction: row;
-        color: black;
+        
         align-items: flex-start;
         justify-content: flex-end;
             li{
-            height:$spacing;
+            height:$spacing-sm;
             font-size: $f-small;
-            list-style: none;
-            color: black;
+            list-style: none;            
             padding: $spacing;
+            width: $spacing-sm;
+            padding-bottom: $spacing;
         }
     }
 
@@ -526,8 +533,7 @@
     flex-direction:column;
     justify-content: center;    
     width: 80%;
-    height: auto;
-    font-size: $f-large;
+    height: auto;    
     font-family: $f-family3;
     padding-bottom: $spacing-lg; 
     color: $black;
@@ -544,8 +550,7 @@
     
     font-style: italic;
     padding-bottom: $spacing;
-    padding-top: $spacing;
-    font-size: $f-large;
+    padding-top: $spacing;    
     text-align: center;
     margin-top: $spacing-lg;
     color: $black;
@@ -638,6 +643,7 @@
 .dropdown-toggle {
     font-size: $f-large;
     width: 15vw;
+    color: $black;
 }
 
 .formulario__cajaContacto text{
@@ -783,4 +789,3 @@ input.formulario__itemContacto1 {
 
 
 
-}
