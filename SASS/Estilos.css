@@ -115,13 +115,13 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
     background-color: #170080;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -136,6 +136,7 @@
   }
   .main .container__footer .info__texto
 p {
+    margin: 2vw;
     padding-left: 2vw;
   }
   .main .container__footer .redesSociales__logos {
@@ -153,10 +154,11 @@ p {
     display: flex;
     width: 2vw;
     border-radius: 100%;
-    margin-bottom: 10vw;
+    margin-bottom: 6vw;
   }
   .main .container__footer .navbar__logo img {
-    width: 60%;
+    height: 1em;
+    width: 1em;
   }
   .main .container__footer .main p {
     font-size: 5em;
@@ -245,9 +247,9 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #170080;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -262,6 +264,7 @@ p {
   }
   .main .container__footer .info__texto
 p {
+    margin: 2vw;
     padding-left: 2vw;
   }
   .main .container__footer .redesSociales__logos {
@@ -350,9 +353,9 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #170080;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -367,6 +370,7 @@ p {
   }
   .main .container__footer .info__texto
 p {
+    margin: 2vw;
     padding-left: 2vw;
   }
   .main .container__footer .redesSociales__logos {
@@ -378,7 +382,7 @@ p {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .main .container__footer .navbar__logo {
+  .main .container__footer .navbar__logo a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -453,9 +457,9 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #170080;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -470,6 +474,7 @@ p {
   }
   .main .container__footer .info__texto
 p {
+    padding: 2vw;
     padding-left: 2vw;
   }
   .main .container__footer .redesSociales__logos {
@@ -485,7 +490,7 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 60%;
+    width: 80%;
     border-radius: 100%;
     margin-bottom: 10vw;
   }
@@ -555,9 +560,9 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #170080;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -566,6 +571,8 @@ p {
     padding-top: 5vw;
     padding-bottom: 4vw;
     font-size: 1vw;
+    /* Inicio Tecnicas*/
+    /* Final Tecnicas*/
   }
   .main .container__footer .info__nombre h3 {
     font-size: 3.4425vw;
@@ -573,6 +580,7 @@ p {
   .main .container__footer .info__texto
 p {
     padding-left: 2vw;
+    margin: 2vw;
   }
   .main .container__footer .redesSociales__logos {
     display: -webkit-box;
@@ -583,12 +591,47 @@ p {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .main .container__footer .navbar__logo {
+  .main .container__footer .navbar__logo img {
+    width: 60%;
+  }
+  .main .container__footer .tecnicas1__lista1 li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 10%;
-    border-radius: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style: none;
+    font-size: 1.275vw;
+    font-family: "Kumbh Sans", sans-serif;
+    color: black;
+  }
+  .main .container__footer .tecnicas1__table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    width: 60%;
+    background-color: green;
+  }
+  .main .container__footer .tecnicas1__table table {
+    background-color: green;
+  }
+  .main .container__footer .tecnicas1__table th, .main .container__footer td {
+    color: black;
+    display: table-cell;
+    border: 0.2vw #dddddd solid;
+    text-align: start;
+    padding: 0.4vw;
+  }
+  .main .container__footer .tecnicas1__table td, .main .container__footer .table th {
+    padding: 0;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+    text-align: start;
   }
 }
 
@@ -772,6 +815,7 @@ img {
 .container__footer .footer__logo {
   width: 60%;
   border-radius: 100%;
+  margin: 1vw;
 }
 
 .footer__info {
@@ -838,7 +882,6 @@ img {
 }
 
 .tecnicas1__segundoTitulo {
-  font-size: 2.25vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -858,7 +901,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   list-style: none;
-  font-size: 1vw;
   font-family: "Kumbh Sans", sans-serif;
   padding: 0.4vw;
   color: black;
@@ -878,16 +920,6 @@ img {
   width: 100%;
   padding-bottom: 4vw;
   background-color: whitesmoke;
-}
-
-.tecnicas1__table {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
 }
 
 .tecnicas1__table th, td {
@@ -1532,15 +1564,9 @@ input.formulario__itemContacto1 {
 }
 
 .navbar .navbar__logo {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  width: 4em;
   border-radius: 100%;
-  margin-left: 0.4vw;
   margin: 1vw;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .navbar li.nav-item.dropdown {

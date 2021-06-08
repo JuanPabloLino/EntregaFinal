@@ -5,17 +5,17 @@
       color: $black;
 
 
-    .navbar__logo{
-
-        display: inline-flex;        
+    .navbar__logo{       
+        width: 4em;
         border-radius: 100%;
-        margin-left: $spacing-sm;
-        margin: $spacing;        
-        align-items: center;
+        margin: $spacing;
         
         
     }
+
     
+  
+
     li.nav-item.dropdown{
       
       display: flex;      

@@ -144,6 +144,7 @@
     .footer__logo{
         width: 60%;
         border-radius: 100%;
+        margin: $spacing;
     }     
 
     }
@@ -208,8 +209,7 @@
         color: $black; 
     } 
     
-    .tecnicas1__segundoTitulo{
-        font-size: $f-title/2;
+    .tecnicas1__segundoTitulo{        
         display: flex;
         justify-content: center;
         color: $blue-dark;          
@@ -220,8 +220,7 @@
     .tecnicas1__lista1 li{    
         display: flex;
         justify-content: center;
-        list-style: none;        
-        font-size: $f-medium;
+        list-style: none;  
         font-family: $f-family1;
         padding: $spacing-sm;            
         color: $black;      
@@ -237,11 +236,7 @@
         background-color: $white;
     }
 
-    .tecnicas1__table {
-        display: flex;
-        justify-content: center;       
-        width: $full-width;
-    }
+    
     .tecnicas1__table th, td{
         color: $black;   
         display: table-cell;
