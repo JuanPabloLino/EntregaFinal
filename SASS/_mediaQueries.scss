@@ -1,4 +1,9 @@
 @media screen and (max-width: 300px)  {
+    
+    .tituloPagina__title{
+        font-size: $f-large*10;
+    }
+
     .row{        
         display: flex;
         flex-direction: row;
@@ -86,21 +91,37 @@
         margin-bottom: $spacing-lg*3;
             img{
                 height: 1em;
-                width: 1em;
-            
+                width: 1em;            
             }
-        
-            
 
-    }   
+   }   
     
     .main p {
         font-size: 5em;
     }
+
+    /* Inicio Nosotros*/
+    .main__containerNosotros{
+
+        width: 50%;
+        grid-column-gap: $spacing;
+        grid-row-gap: $spacing;
+        padding: $spacing*2.5; 
+        overflow-x: auto;
+    }
+
+    
+
+     /* Fin Inicio Nosotros*/
         
 }
 }
+
 @media screen and (min-width: 300px) and (max-width: 575px) {
+    .tituloPagina__title{
+        font-size: $f-large*9;
+    }
+    
     .row{        
         display: flex;
         flex-direction: column;
@@ -196,9 +217,28 @@
         }
     }  
 
+    /* Inicio Nosotros*/
+    .main__containerNosotros{
+        width: 100%;
+        grid-column-gap: $spacing;
+        grid-row-gap: $spacing;
+        padding: $spacing*2.5;    
+
+    }
+
+    .main__galeria{
+        display: flex;
+        justify-content: center;
+    }
+
+     /* Fin Inicio Nosotros*/
 }
 }
 @media screen and (min-width: 576px) and (max-width: 991px){
+    .tituloPagina__title{
+        font-size: $f-large*8;
+    }
+
     .row{        
         display: flex;
         flex-direction: column;
@@ -279,9 +319,36 @@
         
 
     }  
+    /* Inicio Nosotros*/
+    .main__containerNosotros{
+        width: 70%;
+        grid-column-gap: $spacing;
+        grid-row-gap: $spacing;
+        padding: $spacing*2.5; 
+
+
+    }
+
+    .main__galeria{
+        display: flex;
+        justify-content: center;
+        width: $full-width;
+        overflow-x: auto;
+        background-color: $grey;     
+        flex-wrap: wrap;       
+        height: auto;
+        border-radius: $spacing-sm;
+        width: 100%;
+    }
+
+     /* Fin Inicio Nosotros*/
 }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .tituloPagina__title{
+        font-size: $f-large*8;
+    }
+
     .row{
         
         display: flex;
@@ -364,10 +431,35 @@
 
     }  
 }
+    /* Inicio Nosotros*/
+    .main__containerNosotros{
+        width: 90%;
+        grid-column-gap: $spacing;
+        grid-row-gap: $spacing;
+        padding: $spacing*2.5;    
+
+    }
+
+    .main__galeria{
+        display: flex;
+        justify-content: center;
+        width: $full-width;
+        overflow-x: auto;
+        background-color: $grey;     
+        flex-wrap: wrap;       
+        height: auto;
+        border-radius: $spacing-sm;
+        width: 100%;
+    }
+
+    /* Fin Inicio Nosotros*/
     
 }
 @media screen and (min-width: 1200px){
-    
+    .tituloPagina__title{
+        font-size: $f-large*5;
+    }
+
     .row{
         display: flex;
         flex-direction: row;
@@ -488,6 +580,22 @@
     }
       
         
-    /* Final Tecnicas*/
+    /* Fin Tecnicas*/
+
+    /* Inicio Nosotros*/
+    .main__containerNosotros{
+        width: 90%;
+        grid-column-gap: $spacing;
+        grid-row-gap: $spacing;
+        padding: $spacing*2.5;    
+
+    }
+
+    .main__galeria{
+        display: flex;
+        justify-content: center;
+    }
+
+     /* Fin Inicio Nosotros*/
 }
 }
