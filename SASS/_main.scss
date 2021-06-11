@@ -266,7 +266,7 @@
 
     .tecnicas2__videos{
         width: $full-width;
-        background-color: $grey;
+        background-color: $white;
         
     }
 
@@ -283,6 +283,8 @@
         height: 20vw;
         display: flex;
         flex-direction: row;
+        margin-top: $spacing-lg;
+        margin-bottom: $spacing-lg*4;
         
 
     }
@@ -340,6 +342,7 @@
   justify-content: space-around;
   padding-top: $spacing-lg*2;
   width: 100%;
+  padding-bottom: $spacing-lg*5;
   
 }
 
@@ -535,22 +538,7 @@
          
  }
 
- .informacion:hover{
-    transition: all 0.3s ease 0s;   
-    transform: scale(1.1);
-   
- }
 
- .containerNosotros2__info h2{
-    
-    font-style: italic;
-    padding-bottom: $spacing;
-    padding-top: $spacing;    
-    text-align: center;
-    margin-top: $spacing-lg;
-    color: $black;
-        
- }
 
  .containerNosotros2__info p {    
     text-align: center;
@@ -559,10 +547,13 @@
     
  }
 
- .informacion{
-    background-color: $blue-text;
-    border-radius: $spacing; 
-    margin: $spacing-lg;
+
+.informacion{
+    
+        h2{
+            color: #000;
+            
+        }
  }
 
 /* Fin seccion Nosotros */
@@ -572,10 +563,10 @@
 
 .main__containerContacto{
     
-    width: $full-width;
-    margin: auto;
+    width: $full-width;   
     background-color: $grey;
-    opacity: 100%;
+    opacity: 100%; 
+
 
 }
 
@@ -585,106 +576,10 @@
 
 }
 
-.dropdown{
-    display: flex;
-    justify-content: space-around;
-}
-
-.containerContacto__formulario{
-    display: flex;
-    flex-direction: row;      
-    
-}
-
-.formulario__itemContacto1 {    
-    display: flex;  
-    padding: $spacing-lg;
-    padding-right: 0em;
-         
-} 
-.formulario__itemContacto3 {
-    display: flex;
-    flex-direction: row;
-    width: $full-width;
-    height: $spacing-lg;
-    margin: $spacing;
-    align-items: center;
-    color: $black;
-    justify-content: space-around;
-}
-
-.formulario__itemContacto4{
-    margin-top: $spacing-lg;
-    width: auto;
-}
 
 
 
-.formulario__cajaContacto{
-    display: flex;
-    padding-bottom: $spacing;
-    color: $black;
-    align-items: baseline;
-    width: auto;
-    margin: 1em;
-    font-size: $f-medium;
-}
 
-.formulario__cajaContacto2{
-    display: flex;
-    color: $black;
-}
-
-.dropdown-toggle {
-    font-size: $f-large;
-    width: 15vw;
-    color: $black;
-}
-
-.formulario__cajaContacto text{
-    font-size: medium;
-}
-.formulario__cajaContacto3{
-    display: flex;
-    flex-direction: row;
-    width: $full-width/2;
-    height: $spacing-lg*2;
-    justify-content: space-between;
-    align-items: center;
-}
-
-input.formulario__itemContacto1 {
-    width: $spacing-lg*5;
-    height: $f-small;    
-    padding: $f-small;   
-
-}
-
-.containerContacto2 input, textarea , select , option{   
-    margin-left: $spacing-sm;;
-    margin-right: $spacing-sm;
-    color: $black;
-    width: $spacing*10;
-    
-} 
-
-.dropdown-menu.show{    
-    width: $full-width;
-    color: $black;
-
-}
-
-.containerContacto__form fieldset {
-    display: flex;
-    flex-direction: row;    
-    flex-wrap: wrap;
-    align-items: baseline;
-    padding: $spacing;
-    margin: $spacing;
-    color: $black;
-      
-    
-}
 
 
 /* Fin seccion Contacto */
