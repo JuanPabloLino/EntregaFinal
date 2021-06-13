@@ -151,39 +151,7 @@
             color: $white;
             display: flex;            
         }
-    
-    
-    
-    .linksRedes{
-        display: flex;
-        flex-direction: column;
-        width: $spacing-lg*5;
-        
-        li{
-            width: $spacing-lg*3;
-            font-size: $f-medium;
-            height: $spacing-sm;
-            color: $white;
-        }
-
-    }   
-
-    .footer__redesSociales{
-        display: flex;
-        flex-direction: row;
-        
-        align-items: flex-start;
-        justify-content: flex-end;
-            li{
-            height:$spacing-sm;
-            font-size: $f-small;
-            list-style: none;            
-            padding: $spacing;
-            width: $spacing-sm;
-            padding-bottom: $spacing;
-        }
-    }
-
+       
     .footer__barra{
         height: $spacing-sm;
         background-color: $blue-light;

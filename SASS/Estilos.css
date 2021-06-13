@@ -2,37 +2,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 #social-facebook {
-  width: 1.9vw;
-  height: 1.9vw;
+  width: 25px;
+  height: 25px;
   display: block;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  border-radius: 10%;
   background-image: url("../Imagenes/Redes/facebook.png");
   background-repeat: no-repeat;
 }
 
 #social-youtube {
-  width: 1.9vw;
-  height: 1.9vw;
+  width: 25px;
+  height: 25px;
   display: block;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  border-radius: 10%;
   background-image: url("../Imagenes/Redes/youtube.png");
   background-repeat: no-repeat;
 }
 
 #social-instagram {
-  width: 1.9vw;
-  height: 1.9vw;
+  width: 25px;
+  height: 25px;
   display: block;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  border-radius: 10%;
   background-image: url("../Imagenes/Redes/instagram.png");
   background-repeat: no-repeat;
 }
@@ -279,6 +276,53 @@ p {
     padding-left: 4vw;
   }
   /* Fin Contacto*/
+  /* Inicio Redes Socailes*/
+  .footer__redesSociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .footer__redesSociales li {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 0.4vw;
+    font-size: 0.875vw;
+    list-style: none;
+    padding-bottom: 10vw;
+  }
+  .linksRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 10vw;
+  }
+  .linksRedes li {
+    width: 6vw;
+    font-size: 3.825vw;
+    height: 0.4vw;
+    color: whitesmoke;
+    padding-left: 1vw;
+  }
+  .container__footer a {
+    color: whitesmoke;
+  }
+  /* Fin Redes Socailes*/
 }
 
 @media screen and (min-width: 300px) and (max-width: 575px) {
@@ -480,7 +524,7 @@ p {
   }
   .formulario__cajaContacto2 select {
     color: black;
-    width: 90%;
+    width: 80%;
   }
   .formulario__cajaContacto2 select option {
     color: black;
@@ -500,12 +544,12 @@ p {
     margin-bottom: 4vw;
     color: black;
     font-size: 3.825vw;
-    padding-left: 4vw;
+    padding-left: 2vw;
     width: 80%;
   }
   .formulario__cajaContacto3 p {
     color: #000;
-    padding-left: 4vw;
+    padding-left: 2vw;
   }
   .formulario__cajaContacto4 {
     color: black;
@@ -521,8 +565,7 @@ p {
             align-items: center;
   }
   .formulario__cajaContacto4 p {
-    font-size: 3.825vw;
-    padding-left: 4vw;
+    font-size: 3.1875vw;
   }
   .dropdown {
     display: -webkit-box;
@@ -542,6 +585,53 @@ p {
             flex-direction: row;
   }
   /* Fin Contacto*/
+  /* Inicio Redes Socailes*/
+  .footer__redesSociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .footer__redesSociales li {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 0.4vw;
+    font-size: 0.875vw;
+    list-style: none;
+    padding-bottom: 10vw;
+  }
+  .linksRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 10vw;
+  }
+  .linksRedes li {
+    width: 6vw;
+    font-size: 3.1875vw;
+    height: 0.4vw;
+    color: whitesmoke;
+    padding-left: 1vw;
+  }
+  .container__footer a {
+    color: whitesmoke;
+  }
+  /* Fin Redes Socailes*/
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
@@ -681,7 +771,7 @@ p {
   /* Fin Inicio Nosotros*/
   /* Inicio Contacto*/
   .main__containerContacto {
-    padding-bottom: 100vw;
+    padding-bottom: 60vw;
   }
   .containerContacto__form fieldset {
     overflow-x: auto;
@@ -702,7 +792,7 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     color: black;
-    font-size: 3.825vw;
+    font-size: 2.295vw;
     padding-left: 3.6vw;
   }
   .formulario__cajaContacto input {
@@ -711,18 +801,18 @@ p {
     color: black;
   }
   .formulario__cajaContacto2 {
-    font-size: 3.825vw;
+    font-size: 2.295vw;
     padding-left: 3.6vw;
     color: #000;
-    padding-bottom: 4vw;
+    padding-bottom: 3vw;
   }
   .formulario__cajaContacto2 select {
     color: black;
-    width: 90%;
+    width: 80%;
   }
   .formulario__cajaContacto2 select option {
     color: black;
-    font-size: 2.55vw;
+    font-size: 1vw;
   }
   .formulario__cajaContacto3 {
     display: -webkit-box;
@@ -735,15 +825,15 @@ p {
     padding-left: 4vw;
   }
   .formulario__cajaContacto3 input {
-    margin-bottom: 4vw;
+    margin-bottom: 2vw;
     color: black;
-    font-size: 3.825vw;
+    font-size: 2.295vw;
     padding-left: 4vw;
     width: 80%;
   }
   .formulario__cajaContacto3 p {
     color: #000;
-    padding-left: 4vw;
+    padding-left: 3.6vw;
   }
   .formulario__cajaContacto4 {
     color: black;
@@ -759,8 +849,8 @@ p {
             align-items: center;
   }
   .formulario__cajaContacto4 p {
-    font-size: 3.825vw;
-    padding-left: 4vw;
+    font-size: 2.295vw;
+    padding-left: 2vw;
   }
   .dropdown {
     display: -webkit-box;
@@ -780,6 +870,50 @@ p {
             flex-direction: row;
   }
   /* Fin Contacto*/
+  /* Inicio Redes Socailes*/
+  .footer__redesSociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .footer__redesSociales li {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1vw;
+    font-size: 0.875vw;
+    list-style: none;
+    padding-bottom: 4vw;
+  }
+  .linksRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 18vw;
+  }
+  .linksRedes li {
+    font-size: 2.295vw;
+    color: whitesmoke;
+  }
+  .container__footer a {
+    color: whitesmoke;
+  }
+  /* Fin Redes Socailes*/
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -920,10 +1054,9 @@ p {
     font-size: 4.05vw;
   }
   /* Fin Inicio Nosotros*/
-  /* Fin Inicio Nosotros*/
   /* Inicio Contacto*/
   .main__containerContacto {
-    padding-bottom: 100vw;
+    padding-bottom: 60vw;
   }
   .containerContacto__form fieldset {
     overflow-x: auto;
@@ -944,8 +1077,8 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     color: black;
-    font-size: 3.825vw;
-    padding-left: 3.6vw;
+    font-size: 1.9125vw;
+    padding-left: 3vw;
   }
   .formulario__cajaContacto input {
     height: 2em;
@@ -953,18 +1086,18 @@ p {
     color: black;
   }
   .formulario__cajaContacto2 {
-    font-size: 3.825vw;
-    padding-left: 3.6vw;
+    font-size: 1.9125vw;
+    padding-left: 3vw;
     color: #000;
-    padding-bottom: 4vw;
+    padding-bottom: 2vw;
   }
   .formulario__cajaContacto2 select {
     color: black;
-    width: 90%;
+    width: 80%;
   }
   .formulario__cajaContacto2 select option {
     color: black;
-    font-size: 2.55vw;
+    font-size: 1.275vw;
   }
   .formulario__cajaContacto3 {
     display: -webkit-box;
@@ -974,18 +1107,18 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-left: 4vw;
+    padding-left: 2vw;
   }
   .formulario__cajaContacto3 input {
-    margin-bottom: 4vw;
+    margin-bottom: 3vw;
     color: black;
-    font-size: 3.825vw;
-    padding-left: 4vw;
-    width: 80%;
+    font-size: 1.9125vw;
+    padding-left: 2vw;
+    width: 90%;
   }
   .formulario__cajaContacto3 p {
     color: #000;
-    padding-left: 4vw;
+    padding-left: 2vw;
   }
   .formulario__cajaContacto4 {
     color: black;
@@ -1001,8 +1134,8 @@ p {
             align-items: center;
   }
   .formulario__cajaContacto4 p {
-    font-size: 3.825vw;
-    padding-left: 4vw;
+    font-size: 1.9125vw;
+    padding-left: 3vw;
   }
   .dropdown {
     display: -webkit-box;
@@ -1022,6 +1155,50 @@ p {
             flex-direction: row;
   }
   /* Fin Contacto*/
+  /* Inicio Redes Socailes*/
+  .footer__redesSociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .footer__redesSociales li {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 2vw;
+    font-size: 1vw;
+    list-style: none;
+    padding-bottom: 2vw;
+  }
+  .linksRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 2vw;
+  }
+  .linksRedes li {
+    font-size: 1.9125vw;
+    color: whitesmoke;
+  }
+  .container__footer a {
+    color: whitesmoke;
+  }
+  /* Fin Redes Socailes*/
 }
 
 @media screen and (min-width: 1200px) {
@@ -1201,78 +1378,147 @@ p {
   /* Fin Nosotros*/
   /* Inicio Contacto*/
   .main__containerContacto {
-    padding-bottom: 24vw;
+    padding-bottom: 40vw;
   }
-  .formulario__itemContacto1 {
+  .containerContacto__form fieldset {
+    overflow-x: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 2vw;
-    padding-right: 0em;
-  }
-  .formulario__itemContacto3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 100%;
-    height: 2vw;
-    margin: 1vw;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: black;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .formulario__itemContacto4 {
-    margin-top: 2vw;
-    width: auto;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .formulario__cajaContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: black;
+    font-size: 1vw;
+    padding-left: 2vw;
+  }
+  .formulario__cajaContacto input {
+    height: 2em;
+    width: 70%;
     color: black;
   }
   .formulario__cajaContacto2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: black;
+    font-size: 1vw;
+    padding-left: 2vw;
+    color: #000;
+    padding-bottom: 0.4vw;
   }
-  .formulario__cajaContacto text {
-    font-size: medium;
+  .formulario__cajaContacto2 select {
+    color: black;
+    width: 70%;
+  }
+  .formulario__cajaContacto2 select option {
+    color: black;
+    font-size: 0.875vw;
   }
   .formulario__cajaContacto3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 50%;
-    height: 4vw;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 2vw;
+  }
+  .formulario__cajaContacto3 input {
+    margin-bottom: 0.4vw;
+    color: black;
+    font-size: 1vw;
+    width: 70%;
+  }
+  .formulario__cajaContacto3 p {
+    color: #000;
+  }
+  .formulario__cajaContacto4 {
+    color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  input.formulario__itemContacto1 {
-    width: 10vw;
-    height: 0.875vw;
-    padding: 0.875vw;
+  .formulario__cajaContacto4 p {
+    font-size: 1vw;
+    padding-left: 0.4vw;
   }
-  .containerContacto2 input, textarea, select, option {
-    margin-left: 0.4vw;
-    margin-right: 0.4vw;
-    color: black;
-    width: 10vw;
+  .dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .containerContacto__formulario {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   /* Fin Contacto*/
+  /* Inicio Redes Socailes*/
+  .footer__redesSociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-left: 2vw;
+  }
+  .footer__redesSociales li {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1vw;
+    font-size: 0.875vw;
+    list-style: none;
+  }
+  .linksRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 2vw;
+  }
+  .linksRedes li {
+    font-size: 0.875vw;
+    color: whitesmoke;
+  }
+  .container__footer a {
+    color: whitesmoke;
+  }
+  /* Fin Redes Socailes*/
 }
 
 .main__tituloPagina {
@@ -1462,49 +1708,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.linksRedes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 10vw;
-}
-
-.linksRedes li {
-  width: 6vw;
-  font-size: 1vw;
-  height: 0.4vw;
-  color: whitesmoke;
-}
-
-.footer__redesSociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.footer__redesSociales li {
-  height: 0.4vw;
-  font-size: 0.875vw;
-  list-style: none;
-  padding: 1vw;
-  width: 0.4vw;
-  padding-bottom: 1vw;
 }
 
 .footer__barra {
