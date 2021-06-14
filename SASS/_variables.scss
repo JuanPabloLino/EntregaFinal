@@ -49,9 +49,11 @@ $transform: scale(1.1);
 @each  $social in facebook,youtube,instagram {
 
     #social-#{$social}{
-        width:  25px; 
-        height: 25px;       
-        display: block;
+        
+        background-size:contain;
+        width:  80px; 
+        height: 30px;       
+        display: flex;
         align-items: stretch;        
         background-image: url("../Imagenes/Redes/#{$social}.png"); 
         background-repeat:no-repeat 

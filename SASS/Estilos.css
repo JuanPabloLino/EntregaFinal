@@ -2,9 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 #social-facebook {
-  width: 25px;
-  height: 25px;
-  display: block;
+  background-size: contain;
+  width: 80px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -13,9 +16,12 @@
 }
 
 #social-youtube {
-  width: 25px;
-  height: 25px;
-  display: block;
+  background-size: contain;
+  width: 80px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -24,9 +30,12 @@
 }
 
 #social-instagram {
-  width: 25px;
-  height: 25px;
-  display: block;
+  background-size: contain;
+  width: 80px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -36,7 +45,7 @@
 
 @media screen and (max-width: 300px) {
   .tituloPagina__title {
-    font-size: 12.75vw;
+    font-size: 10.2vw;
   }
   .row {
     display: -webkit-box;
@@ -86,6 +95,7 @@
     padding-top: 2vw;
   }
   .jumbotron__button {
+    border-radius: 1vw;
     width: auto;
   }
   .col-sm-4 {
@@ -146,18 +156,20 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding: 1vw;
   }
-  .navbar__logo {
+  .redesSociales__logos ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 2vw;
-    border-radius: 100%;
-    margin-bottom: 6vw;
   }
-  .navbar__logo img {
-    height: 1em;
-    width: 1em;
+  .navbar__logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+    border-radius: 100%;
+    margin-bottom: 8vw;
   }
   /* Inicio Nosotros*/
   .main__containerNosotros {
@@ -183,13 +195,17 @@ p {
     width: 100%;
   }
   .informacion {
-    background-color: #85c1f1;
+    background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
+    color: whitesmoke;
+  }
+  .informacion a {
+    color: white;
   }
   .informacion h2 {
-    color: #000;
-    font-size: 13.5vw;
+    color: whitesmoke;
+    font-size: 9vw;
   }
   /* Fin Inicio Nosotros*/
   /* Inicio Contacto*/
@@ -263,10 +279,10 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -274,6 +290,9 @@ p {
   .formulario__cajaContacto4 p {
     font-size: 7.65vw;
     padding-left: 4vw;
+  }
+  .formulario__cajaContacto4 input {
+    margin-top: 4vw;
   }
   /* Fin Contacto*/
   /* Inicio Redes Socailes*/
@@ -301,23 +320,6 @@ p {
     font-size: 0.875vw;
     list-style: none;
     padding-bottom: 10vw;
-  }
-  .linksRedes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 10vw;
-  }
-  .linksRedes li {
-    width: 6vw;
-    font-size: 3.825vw;
-    height: 0.4vw;
-    color: whitesmoke;
-    padding-left: 1vw;
   }
   .container__footer a {
     color: whitesmoke;
@@ -374,6 +376,7 @@ p {
     padding-top: 2vw;
   }
   .jumbotron__button {
+    border-radius: 1vw;
     width: auto;
   }
   .col-sm-7 {
@@ -439,18 +442,18 @@ p {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .navbar__logo {
+  .redesSociales__logos ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 40%;
-    height: 40%;
-    border-radius: 100%;
-    margin-bottom: 10vw;
   }
-  .navbar__logo img {
-    width: 40%;
-    height: 40%;
+  .navbar__logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+    border-radius: 100%;
+    margin-bottom: 8vw;
   }
   /* Inicio Nosotros*/
   .main__containerNosotros {
@@ -476,7 +479,7 @@ p {
     width: 100%;
   }
   .informacion {
-    background-color: #85c1f1;
+    background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
   }
@@ -556,16 +559,20 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .formulario__cajaContacto4 p {
     font-size: 3.1875vw;
+  }
+  .formulario__cajaContacto4 input {
+    margin-bottom: 5.2vw;
+    margin-left: 1vw;
   }
   .dropdown {
     display: -webkit-box;
@@ -610,23 +617,6 @@ p {
     font-size: 0.875vw;
     list-style: none;
     padding-bottom: 10vw;
-  }
-  .linksRedes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 10vw;
-  }
-  .linksRedes li {
-    width: 6vw;
-    font-size: 3.1875vw;
-    height: 0.4vw;
-    color: whitesmoke;
-    padding-left: 1vw;
   }
   .container__footer a {
     color: whitesmoke;
@@ -681,6 +671,7 @@ p {
   }
   .main .jumbotron__button {
     font-size: 3.825vw;
+    border-radius: 1vw;
     width: auto;
   }
   .main .informacion__jumbotron h1 {
@@ -727,6 +718,11 @@ p {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .redesSociales__logos ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .navbar__logo a {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -759,7 +755,7 @@ p {
     width: 100%;
   }
   .informacion {
-    background-color: #85c1f1;
+    background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
   }
@@ -840,10 +836,10 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -851,6 +847,10 @@ p {
   .formulario__cajaContacto4 p {
     font-size: 2.295vw;
     padding-left: 2vw;
+  }
+  .formulario__cajaContacto4 input {
+    margin-bottom: 1.5vw;
+    margin-left: 0.4vw;
   }
   .dropdown {
     display: -webkit-box;
@@ -894,21 +894,7 @@ p {
     height: 1vw;
     font-size: 0.875vw;
     list-style: none;
-    padding-bottom: 4vw;
-  }
-  .linksRedes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 18vw;
-  }
-  .linksRedes li {
-    font-size: 2.295vw;
-    color: whitesmoke;
+    padding-bottom: 8vw;
   }
   .container__footer a {
     color: whitesmoke;
@@ -965,6 +951,7 @@ p {
     height: 100%;
   }
   .main .jumbotron__button {
+    border-radius: 1vw;
     font-size: 2.55vw;
     width: auto;
   }
@@ -1013,6 +1000,11 @@ p {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .main .container__footer .redesSociales__logos ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .main .container__footer .navbar__logo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1045,7 +1037,7 @@ p {
     width: 100%;
   }
   .informacion {
-    background-color: #85c1f1;
+    background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
   }
@@ -1125,10 +1117,10 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1136,6 +1128,10 @@ p {
   .formulario__cajaContacto4 p {
     font-size: 1.9125vw;
     padding-left: 3vw;
+  }
+  .formulario__cajaContacto4 input {
+    margin-bottom: 1vw;
+    margin-left: 0.4vw;
   }
   .dropdown {
     display: -webkit-box;
@@ -1177,23 +1173,8 @@ p {
     display: -ms-flexbox;
     display: flex;
     height: 2vw;
-    font-size: 1vw;
     list-style: none;
-    padding-bottom: 2vw;
-  }
-  .linksRedes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 2vw;
-  }
-  .linksRedes li {
-    font-size: 1.9125vw;
-    color: whitesmoke;
+    padding-bottom: 6vw;
   }
   .container__footer a {
     color: whitesmoke;
@@ -1249,6 +1230,7 @@ p {
     height: 100%;
   }
   .main .jumbotron__button {
+    border-radius: 0.4vw;
     font-size: 1.275vw;
     width: auto;
   }
@@ -1320,11 +1302,7 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    width: 60%;
-    background-color: green;
-  }
-  .tecnicas1__table table {
-    background-color: green;
+    width: 100%;
   }
   .tecnicas1__table th, td {
     color: black;
@@ -1364,16 +1342,17 @@ p {
     width: 100%;
   }
   .informacion {
-    background-color: #85c1f1;
+    background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
   }
   .informacion p {
-    font-size: 1vw;
+    font-size: 0.8vw;
   }
   .informacion h2 {
+    margin-top: 1vw;
     color: black;
-    font-size: 2.25vw;
+    font-size: 1.35vw;
   }
   /* Fin Nosotros*/
   /* Inicio Contacto*/
@@ -1408,6 +1387,13 @@ p {
     color: black;
   }
   .formulario__cajaContacto2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     font-size: 1vw;
     padding-left: 2vw;
     color: #000;
@@ -1445,10 +1431,10 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1456,6 +1442,10 @@ p {
   .formulario__cajaContacto4 p {
     font-size: 1vw;
     padding-left: 0.4vw;
+  }
+  .formulario__cajaContacto4 input {
+    margin-bottom: 0.8vw;
+    margin-left: 0.4vw;
   }
   .dropdown {
     display: -webkit-box;
@@ -1500,20 +1490,7 @@ p {
     height: 1vw;
     font-size: 0.875vw;
     list-style: none;
-  }
-  .linksRedes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 2vw;
-  }
-  .linksRedes li {
-    font-size: 0.875vw;
-    color: whitesmoke;
+    padding-bottom: 2.4vw;
   }
   .container__footer a {
     color: whitesmoke;
@@ -1616,7 +1593,7 @@ p {
 }
 
 .main__informacion h1, p {
-  color: black;
+  color: whitesmoke;
 }
 
 .informacion__jumbotron {
@@ -1775,7 +1752,6 @@ img {
 }
 
 .tecnicas1__table {
-  display: block;
   overflow-x: auto;
 }
 
@@ -2135,7 +2111,7 @@ img {
 }
 
 .informacion h2 {
-  color: #000;
+  color: white;
 }
 
 /* Fin seccion Nosotros */

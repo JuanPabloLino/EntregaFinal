@@ -1,7 +1,7 @@
 @media screen and (max-width: 300px)  {
     
     .tituloPagina__title{
-        font-size: $f-large*10;
+        font-size: $f-large*8;
     }
 
     .row{        
@@ -31,10 +31,12 @@
         align-items: center;
         padding-top: $spacing-lg;
         
+        
 
     }
 
     .jumbotron__button{
+        border-radius: $spacing;
         width: auto;
     }
 
@@ -84,17 +86,20 @@
     .redesSociales__logos{
         display: flex;
         flex-direction: row;
+        padding: $spacing;
+            ul{
+                display: flex;
+            }
     } 
 
     .navbar__logo{
-        display: flex;         
-        width: $spacing-lg;    
+        a{
+        display: flex;
+        width: 60%;        
         border-radius: 100%;
-        margin-bottom: $spacing-lg*3;
-            img{
-                height: 1em;
-                width: 1em;            
-            }
+        margin-bottom: $spacing-lg*4;
+
+        }
 
    }   
     
@@ -123,12 +128,16 @@
     }
 
     .informacion{
-        background-color: $blue-text;
+        background-color: $blue-dark;
         border-radius: $spacing; 
         margin: $spacing-lg;
+        color: $white;
+            a{
+                color: white;
+            }
             h2{
-                color: #000;
-                font-size: $f-title*3;
+                color: $white;
+                font-size: $f-title*2;
             }
             
      }
@@ -203,11 +212,14 @@
     .formulario__cajaContacto4{   
         color: $black;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         p{
             font-size: $f-large*6;
             padding-left: $spacing-lg*2;
+        }
+        input{
+            margin-top: $spacing-lg*2;
         }
         
         
@@ -234,22 +246,9 @@
             
             
         }
-    }
-        .linksRedes{
-            display: flex;
-            flex-direction: column;
-            width: $spacing-lg*5;
-            
-            li{
-                width: $spacing-lg*3;
-                font-size: $f-large*3;
-                height: $spacing-sm;
-                color: $white;
-                padding-left: $spacing;
-            }
-        }
-            .container__footer a{
-            color: $white;
+    }                
+        .container__footer a{
+        color: $white;
             
         }
     
@@ -290,6 +289,7 @@
     }
 
     .jumbotron__button{
+        border-radius: $spacing;
         width: auto;
     }
 
@@ -344,16 +344,17 @@
     .redesSociales__logos{
         display: flex;
         flex-direction: row;
+        ul{
+            display: flex;
+        }
     }      
     .navbar__logo{
-        display: flex;         
-        width: 40%;   
-        height: 40%;    
+        a{
+        display: flex;
+        width: 60%;        
         border-radius: 100%;
-        margin-bottom: $spacing-lg*5;
-        img{
-            width: 40%;
-            height: 40%;
+        margin-bottom: $spacing-lg*4;
+
         }
     }  
 
@@ -379,7 +380,7 @@
     }
 
     .informacion{
-        background-color: $blue-text;
+        background-color: $blue-dark;
         border-radius: $spacing; 
         margin: $spacing-lg;
             h2{
@@ -457,10 +458,14 @@
     .formulario__cajaContacto4{   
         color: $black;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         p{
             font-size: $f-large*2.5;            
+        }
+        input{
+            margin-bottom: $spacing-lg*2.6;
+            margin-left: $spacing;
         }
         
         
@@ -469,7 +474,9 @@
     .dropdown{
         display: flex;    
         justify-content: center;
+        
     } 
+    
     
     .containerContacto__formulario{
         display: flex;
@@ -499,20 +506,7 @@
             
         }
     }
-        .linksRedes{
-            display: flex;
-            flex-direction: column;
-            width: $spacing-lg*5;
-            
-            li{
-                width: $spacing-lg*3;
-                font-size: $f-large*2.5;
-                height: $spacing-sm;
-                color: $white;
-                padding-left: $spacing;
-            }
-        }
-            .container__footer a{
+        .container__footer a{
             color: $white;
             
         }
@@ -557,6 +551,7 @@
     }
     .main .jumbotron__button{        
         font-size: $f-large*3;
+        border-radius: $spacing;
         width: auto;
                
     }
@@ -596,6 +591,9 @@
     .redesSociales__logos{
         display: flex;
         flex-direction: row;
+        ul{
+            display: flex;
+        }
     } 
     .navbar__logo{
         a{
@@ -630,7 +628,7 @@
     }
 
     .informacion{
-        background-color: $blue-text;
+        background-color: $blue-dark;
         border-radius: $spacing; 
         margin: $spacing-lg;
             h2{
@@ -710,11 +708,15 @@
     .formulario__cajaContacto4{   
         color: $black;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         p{
             font-size: $f-large*1.8;
             padding-left: $spacing-lg;
+        }
+        input{
+            margin-bottom: $spacing*1.5;
+            margin-left: $spacing-sm;
         }
         
         
@@ -748,22 +750,12 @@
             height:$spacing;
             font-size: $f-small;
             list-style: none;            
-            padding-bottom: $spacing-lg*2;
+            padding-bottom: $spacing-lg*4;
             
             
         }
     }
-        .linksRedes{
-            display: flex;
-            flex-direction: column;
-            width: $spacing-lg*9;
-            
-            li{               
-                font-size: $f-large*1.8;                
-                color: $white;                
-            }
-        }
-            .container__footer a{
+        .container__footer a{
             color: $white;
             
         }
@@ -811,7 +803,8 @@
         height: 100%;
         
     }
-    .main .jumbotron__button{        
+    .main .jumbotron__button{    
+        border-radius: $spacing;    
         font-size: $f-large*2;
         width: auto;
                
@@ -848,6 +841,9 @@
     .redesSociales__logos{
         display: flex;
         flex-direction: row;
+        ul{
+            display: flex;
+        }
     } 
 
     .navbar__logo{
@@ -880,7 +876,7 @@
     }
 
     .informacion {
-    background-color: $blue-text;
+    background-color: $blue-dark;
     border-radius: $spacing; 
     margin: $spacing-lg;
         
@@ -960,12 +956,17 @@
     .formulario__cajaContacto4{   
         color: $black;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         p{
             font-size: $f-large*1.5;
             padding-left: $spacing-lg*1.5;
         }
+        input{
+                margin-bottom: $spacing;
+                margin-left: $spacing-sm;
+            }
+        
         
         
     } 
@@ -995,25 +996,14 @@
         li{
             color: white;    
             display: flex;
-            height:$spacing-lg;
-            font-size: $f-medium;
+            height:$spacing-lg;            
             list-style: none;            
-            padding-bottom: $spacing-lg;
+            padding-bottom: $spacing-lg*3;
             
             
         }
     }
-        .linksRedes{
-            display: flex;
-            flex-direction: column;
-            width: $spacing-lg;
-            
-            li{               
-                font-size: $f-large*1.5;                
-                color: $white;                
-            }
-        }
-            .container__footer a{
+        .container__footer a{
             color: $white;
             
         }
@@ -1063,7 +1053,8 @@
         
     }
 
-    .main .jumbotron__button{        
+    .main .jumbotron__button{ 
+        border-radius: $spacing-sm;       
         font-size: $f-large;
         width: auto;
                
@@ -1106,6 +1097,7 @@
     .redesSociales__logos{
         display: flex;
         flex-direction: row;
+        
     } 
     .navbar__logo{
             img{
@@ -1130,11 +1122,8 @@
         display: flex;
         justify-content: center;       
         width: $full-width;
-        width: 60%;
-        background-color: green;
-            table{
-                background-color: green;
-            }
+        width: 100%;       
+            
     }
     .tecnicas1__table th, td{
         color: $black;   
@@ -1178,15 +1167,16 @@
     }
 
     .informacion {
-        background-color: $blue-text;
+        background-color: $blue-dark;
         border-radius: $spacing; 
         margin: $spacing-lg;
                 p{
-                    font-size: $f-medium;
+                    font-size: $f-medium*.8;
                 }
-                h2{    
+                h2{ 
+                    margin-top: $spacing;   
                     color: $black;            
-                    font-size: $f-title*.5;
+                    font-size: $f-title*.3;
                 }
          }
      
@@ -1222,6 +1212,8 @@
     }   
     
     .formulario__cajaContacto2{
+        display: flex;
+        flex-direction: column;
         font-size: $f-medium;
         padding-left: $spacing-lg;
         color: #000;
@@ -1257,11 +1249,16 @@
     .formulario__cajaContacto4{   
         color: $black;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         p{
             font-size: $f-medium;
             padding-left: $spacing-sm;
+        }
+        input{
+            margin-bottom: $spacing*.8;
+            margin-left: $spacing-sm;
+            
         }
         
         
@@ -1295,22 +1292,13 @@
             display: flex;
             height:$spacing;
             font-size: $f-small;
-            list-style: none;           
+            list-style: none;   
+            padding-bottom: $spacing-lg*1.2;        
            
                         
         }
     }
-        .linksRedes{
-            display: flex;
-            flex-direction: column;
-            width: $spacing-lg;
-            
-            li{               
-                font-size: $f-small;                
-                color: $white;                
-            }
-        }
-            .container__footer a{
+        .container__footer a{
             color: $white;
             
         }

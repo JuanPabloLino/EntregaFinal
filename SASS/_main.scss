@@ -69,7 +69,7 @@
     }
 
     .main__informacion h1 , p{
-        color: $black;
+        color: $white;
         
     }
 
@@ -210,7 +210,6 @@
     }
 
     .tecnicas1__table {
-        display: block;
         overflow-x: auto;
             td{                
                 color: $black;                   
@@ -519,7 +518,7 @@
 .informacion{
     
         h2{
-            color: #000;
+            color: white;
             
         }
  }
