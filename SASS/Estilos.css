@@ -177,6 +177,7 @@ p {
     grid-column-gap: 1vw;
     grid-row-gap: 1vw;
     padding: 2.5vw;
+    color: whitesmoke;
   }
   .main__galeria {
     display: -webkit-box;
@@ -194,23 +195,28 @@ p {
     border-radius: 0.4vw;
     width: 100%;
   }
-  .informacion {
+  .info__nosotros {
     background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
     color: whitesmoke;
   }
-  .informacion a {
+  .info__nosotros a {
     color: white;
   }
-  .informacion h2 {
+  .info__nosotros h2 {
     color: whitesmoke;
     font-size: 9vw;
   }
   /* Fin Inicio Nosotros*/
   /* Inicio Contacto*/
   .main__containerContacto {
-    padding-bottom: 100vw;
+    padding-bottom: 200vw;
+  }
+  .main__containerContacto p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6.375vw;
   }
   .containerContacto__form fieldset {
     overflow-x: auto;
@@ -286,6 +292,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-right: 4vw;
   }
   .formulario__cajaContacto4 p {
     font-size: 7.65vw;
@@ -295,7 +302,21 @@ p {
     margin-top: 4vw;
   }
   /* Fin Contacto*/
-  /* Inicio Redes Socailes*/
+  /* Inicio Tecnicas*/
+  .tecnicas1__lista1 {
+    border: #170080 2px solid;
+    max-width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /* Fin Tecnicas/
+
+    /* Inicio Redes Socailes*/
   .footer__redesSociales {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -374,6 +395,9 @@ p {
         -ms-flex-align: center;
             align-items: center;
     padding-top: 2vw;
+  }
+  .informacion__jumbotron p {
+    color: black;
   }
   .jumbotron__button {
     border-radius: 1vw;
@@ -478,19 +502,36 @@ p {
     border-radius: 0.4vw;
     width: 100%;
   }
-  .informacion {
+  .info__nosotros {
     background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
   }
-  .informacion h2 {
-    color: #000;
+  .info__nosotros h2 {
+    color: whitesmoke;
     font-size: 8.1vw;
   }
   /* Fin Inicio Nosotros*/
+  .tecnicas1__lista1 {
+    border: #170080 2px solid;
+    min-width: 90%;
+    max-width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   /* Inicio Contacto*/
   .main__containerContacto {
     padding-bottom: 100vw;
+  }
+  .main__containerContacto p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5.1vw;
   }
   .containerContacto__form fieldset {
     overflow-x: auto;
@@ -566,6 +607,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-right: 1vw;
   }
   .formulario__cajaContacto4 p {
     font-size: 3.1875vw;
@@ -754,20 +796,25 @@ p {
     border-radius: 0.4vw;
     width: 100%;
   }
-  .informacion {
+  .info__nosotros {
     background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
   }
-  .informacion h2 {
-    color: #000;
+  .info__nosotros h2 {
+    color: whitesmoke;
     font-size: 5.85vw;
   }
   /* Fin Inicio Nosotros*/
   /* Fin Inicio Nosotros*/
   /* Inicio Contacto*/
   .main__containerContacto {
-    padding-bottom: 60vw;
+    padding-bottom: 58vw;
+  }
+  .main__containerContacto p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.1875vw;
   }
   .containerContacto__form fieldset {
     overflow-x: auto;
@@ -843,6 +890,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-right: 1vw;
   }
   .formulario__cajaContacto4 p {
     font-size: 2.295vw;
@@ -870,7 +918,22 @@ p {
             flex-direction: row;
   }
   /* Fin Contacto*/
-  /* Inicio Redes Socailes*/
+  /* Inicio Tecnicas*/
+  .tecnicas1__lista1 {
+    border: #170080 2px solid;
+    min-width: 50%;
+    max-width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /* Fin Tecnicas/
+
+    /* Inicio Redes Sociales*/
   .footer__redesSociales {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1036,19 +1099,24 @@ p {
     border-radius: 0.4vw;
     width: 100%;
   }
-  .informacion {
+  .info__nosotros {
     background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
   }
-  .informacion h2 {
-    color: black;
+  .info__nosotros h2 {
+    color: whitesmoke;
     font-size: 4.05vw;
   }
   /* Fin Inicio Nosotros*/
   /* Inicio Contacto*/
   .main__containerContacto {
-    padding-bottom: 60vw;
+    padding-bottom: 50vw;
+  }
+  .main__containerContacto p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.55vw;
   }
   .containerContacto__form fieldset {
     overflow-x: auto;
@@ -1124,6 +1192,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-right: 1vw;
   }
   .formulario__cajaContacto4 p {
     font-size: 1.9125vw;
@@ -1151,7 +1220,19 @@ p {
             flex-direction: row;
   }
   /* Fin Contacto*/
-  /* Inicio Redes Socailes*/
+  /* Inicio Tecnicas*/
+  .tecnicas1__lista1 {
+    border: #170080 2px solid;
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /* Inicio Redes Sociales*/
   .footer__redesSociales {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1179,7 +1260,7 @@ p {
   .container__footer a {
     color: whitesmoke;
   }
-  /* Fin Redes Socailes*/
+  /* Fin Redes Sociales*/
 }
 
 @media screen and (min-width: 1200px) {
@@ -1208,6 +1289,7 @@ p {
     padding-top: 2vw;
     width: 100%;
     max-width: 100%;
+    border-left: #170080 0.4vw solid;
   }
   .informacion__jumbotron {
     height: auto;
@@ -1224,7 +1306,8 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-top: 2vw;
+    padding-top: 1vw;
+    padding-left: 4vw;
   }
   .main img {
     height: 100%;
@@ -1282,6 +1365,17 @@ p {
     width: 60%;
   }
   /* Inicio Tecnicas*/
+  .tecnicas1__lista1 {
+    border: #170080 2px solid;
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .tecnicas1__lista1 li {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1341,23 +1435,28 @@ p {
     border-radius: 0.4vw;
     width: 100%;
   }
-  .informacion {
+  .info__nosotros {
     background-color: #170080;
     border-radius: 1vw;
     margin: 2vw;
   }
-  .informacion p {
+  .info__nosotros p {
     font-size: 0.8vw;
   }
-  .informacion h2 {
+  .info__nosotros h2 {
     margin-top: 1vw;
-    color: black;
+    color: whitesmoke;
     font-size: 1.35vw;
   }
   /* Fin Nosotros*/
   /* Inicio Contacto*/
   .main__containerContacto {
-    padding-bottom: 40vw;
+    padding-bottom: 30vw;
+  }
+  .main__containerContacto p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.53vw;
   }
   .containerContacto__form fieldset {
     overflow-x: auto;
@@ -1438,6 +1537,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-right: 1vw;
   }
   .formulario__cajaContacto4 p {
     font-size: 1vw;
@@ -1587,13 +1687,13 @@ p {
   padding-top: 8vw;
   padding-bottom: 2vw;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: black;
   margin-bottom: 2vw;
   padding-left: 2vw;
 }
 
-.main__informacion h1, p {
-  color: whitesmoke;
+.main__informacion p {
+  color: black;
 }
 
 .informacion__jumbotron {
@@ -1736,6 +1836,9 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   padding-bottom: 4vw;
   background-color: whitesmoke;
@@ -1843,8 +1946,6 @@ img {
   margin-left: 2vw;
   margin-top: 0.4vw;
   margin-bottom: 2vw;
-  background-color: whitesmoke;
-  padding-left: 2vw;
 }
 
 .container__mapa {
@@ -2102,7 +2203,7 @@ img {
   height: auto;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 2vw;
-  color: black;
+  color: whitesmoke;
 }
 
 .containerNosotros2__info p {
@@ -2291,7 +2392,6 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Kumbh Sans", sans-serif;
-  color: whitesmoke;
 }
 
 body {
