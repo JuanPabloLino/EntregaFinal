@@ -38,6 +38,7 @@
     .jumbotron__button{
         border-radius: $spacing;
         width: auto;
+        
     }
 
     .col-sm-4{
@@ -49,7 +50,8 @@
     }
     .main .jumbotron__button{        
         font-size: $f-large*4;    
-        width: auto;   
+        width: auto;  
+        padding: $spacing-lg;        
     }
 
     .main .informacion__jumbotron{
@@ -241,6 +243,7 @@
         max-width: 90%;
         display: flex;
         flex-direction: column;
+        
     }
 
     /* Fin Tecnicas/
@@ -271,6 +274,28 @@
         }
     
     /* Fin Redes Socailes*/
+
+    /* Inicio Ubicacion*/
+    .main__container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        align-items: center
+    }
+
+    .container__button{
+        display: flex;
+        padding: $spacing-lg;
+    }
+
+    .collapse{ 
+        width: 100%;
+        padding: $spacing-lg*3;
+        text-align: center;
+    }
+
+    /* Fin Ubicacion*/    
 }
 
 @media screen and (min-width: 300px) and (max-width: 575px) {
@@ -309,9 +334,10 @@
 
     }
 
-    .jumbotron__button{
+    .main .jumbotron__button{
         border-radius: $spacing;
         width: auto;
+        padding: $spacing-lg;
     }
 
     .col-sm-7{
@@ -547,6 +573,28 @@
         }
     
     /* Fin Redes Socailes*/
+
+    /* Inicio Ubicacion*/
+    .main__container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        align-items: center
+    }
+
+    .container__button{
+        display: flex;
+        padding: $spacing-lg;
+    }
+
+    .collapse{ 
+        width: 100%;
+        padding: $spacing-lg*3;
+        text-align: center;
+    }
+
+    /* Fin Ubicacion*/   
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px){
@@ -588,6 +636,8 @@
         font-size: $f-large*3;
         border-radius: $spacing;
         width: auto;
+        padding-left: $spacing-lg;
+        padding-right: $spacing-lg;
                
     }
     
@@ -814,6 +864,28 @@
         }
     
     /* Fin Redes Socailes*/
+
+    /* Inicio Ubicacion*/
+    .main__container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        align-items: center
+    }
+
+    .container__button{
+        display: flex;
+        padding: $spacing;
+    }
+
+    .collapse{ 
+        width: 100%;
+        padding: $spacing-lg*3;
+        text-align: center;
+    }
+
+    /* Fin Ubicacion*/   
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -860,6 +932,8 @@
         border-radius: $spacing;    
         font-size: $f-large*2;
         width: auto;
+        padding-left: $spacing-lg;
+        padding-right: $spacing-lg;
                
     }
     
@@ -1077,6 +1151,28 @@
         }
     
     /* Fin Redes Sociales*/
+
+    /* Inicio Ubicacion*/
+    .main__container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        align-items: center
+    }
+
+    .container__button{
+        display: flex;
+        padding: $spacing;
+    }
+
+    .collapse{ 
+        width: 100%;
+        padding: $spacing-lg*3;
+        text-align: center;
+    }
+
+    /* Fin Ubicacion*/   
     
 }
 @media screen and (min-width: 1200px){
@@ -1128,6 +1224,8 @@
         border-radius: $spacing-sm;       
         font-size: $f-large;
         width: auto;
+        padding-left: $spacing;
+        padding-right: $spacing;
                
     }
     
@@ -1363,7 +1461,7 @@
 
     /* Fin Contacto*/ 
 
-    /* Inicio Redes Socailes*/
+    /* Inicio Redes Sociales*/
 
     .footer__redesSociales{
         display: flex;
@@ -1389,7 +1487,28 @@
             
         }
     
-    /* Fin Redes Socailes*/
+    /* Fin Redes Sociales*/
 
+/* Inicio Ubicacion*/
+.main__container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    align-items: center
+}
+
+.container__button{
+    display: flex;
+    padding: $spacing-sm;
+}
+
+.collapse{ 
+    width: 100%;
+    padding: $spacing-lg;
+    text-align: center;
+}
+
+/* Fin Ubicacion*/   
 
 }
